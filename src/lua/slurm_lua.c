@@ -296,7 +296,7 @@ static void _register_slurm_output_functions(lua_State *L)
 	lua_pushnumber(L, MAIL_JOB_TIME100);
 	lua_setfield(L, -2, "MAIL_JOB_TIME100");
 	lua_pushnumber(L, MAIL_JOB_TIME90);
-	lua_setfield(L, -2, "MAIL_JOB_TIME890");
+	lua_setfield(L, -2, "MAIL_JOB_TIME90");
 	lua_pushnumber(L, MAIL_JOB_TIME80);
 	lua_setfield(L, -2, "MAIL_JOB_TIME80");
 	lua_pushnumber(L, MAIL_JOB_TIME50);
